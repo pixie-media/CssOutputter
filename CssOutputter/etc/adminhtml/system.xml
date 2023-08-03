@@ -10,7 +10,7 @@
                 <field id="enabled" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enable CSS Output</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-					<comment>When set to 'yes', all style sheets in the header are convert to raw css in a style block.</comment>
+					<comment>When set to 'yes', all stylesheets in the head section are converted to raw minified css in a style block.</comment>
                 </field>
             </group>
 
