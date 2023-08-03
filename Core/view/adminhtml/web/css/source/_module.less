@@ -1,0 +1,26 @@
+@import '_icons.less';
+
+.admin__menu .item-index.level-0 > a:before {
+  content: @icon-pixiemedia__content;
+  font-family: @icons-pixiemedia__font-name;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pixiemedia-extensions .title:before {
+  content: @icon-pixiemedia__content;
+  font-family: @icons-pixiemedia__font-name;
+  font-size: 1.3rem;
+  padding-top: .2rem;
+}
+
+[data-ui-id="menu-pixiemedia-core-menu"] strong:before {
+  display: none; /*no icon under PixieMedia tab*/
+}

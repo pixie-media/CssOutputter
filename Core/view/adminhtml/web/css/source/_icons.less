@@ -1,0 +1,20 @@
+@import "variables/_icons.less";
+
+@font-face {
+	font-family: @icons-pixiemedia__font-name;
+	
+	src:  url('../PixieMedia_Core/fonts/@{icons-pixiemedia__file-name}/icomoon.eot?ndb0xv#iefix') format('embedded-opentype'),
+		url('../PixieMedia_Core/fonts/@{icons-pixiemedia__file-name}/icomoon.ttf?ndb0xv') format('truetype'),
+		url('../PixieMedia_Core/fonts/@{icons-pixiemedia__file-name}/icomoon.woff?ndb0xv') format('woff'),
+		url('../PixieMedia_Core/fonts/@{icons-pixiemedia__file-name}/icomoon.svg?ndb0xv#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.lib-font-face(
+  @family-name: @icons-pixiemedia__font-name,
+  @font-path: @icons-pixiemedia__font-name-path,
+  @font-weight: normal,
+  @font-style: normal
+);

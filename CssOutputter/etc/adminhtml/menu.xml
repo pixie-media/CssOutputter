@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="PixieMedia_CssOutputter::csstop" module="PixieMedia_CssOutputter" resource="PixieMedia_CssOutputter::css" sortOrder="66" title="Css Outputter" parent="PixieMedia_Core::index"/>
+		<add id="PixieMedia_CssOutputter::settings" title="Setting" module="PixieMedia_CssOutputter" sortOrder="10" parent="PixieMedia_CssOutputter::csstop" action="adminhtml/system_config/edit/section/css_outputter/" resource="PixieMedia_CssOutputter::config"/>
+	</menu>
+</config>

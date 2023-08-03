@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="css_outputter" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+            <label>CSS Outputter</label>
+            <tab>pixiemedia</tab>
+            <resource>PixieMedia_CssOutputter::general_config</resource>
+            <group id="configuration" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+                <label>Configuration</label>
+                <field id="enabled" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable CSS Output</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+					<comment>When set to 'yes', all style sheets in the header are convert to raw css in a style block.</comment>
+                </field>
+            </group>
+
+        </section>
+    </system>
+</config>
