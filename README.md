@@ -5,7 +5,7 @@ Please note this module assumes all in-css requests to assets begin .. and repla
 
 Ie
 
-.some-backgrond { background:url(../images/bg.png) no-repeat center; }
+.some-background { background:url(../images/bg.png) no-repeat center; }
 
 Will become;
 
