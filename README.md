@@ -1,5 +1,5 @@
 # PixieMedia_CssOutputter
-Using this module, you can convert all your &lt;head&gt; stylesheets in to a blob of minified inline CSS.  For Hyva sites with very lightweight stylesheets, this can even further improve your Lighthouse page speed score by further reducing additional page requests.
+Using this module for Magento2/Adobe Commerce, you can convert all your &lt;head&gt; stylesheets in to a blob of minified inline CSS.  For Hyva sites with very lightweight stylesheets, this can even further improve your Lighthouse page speed score by further reducing additional page requests.
 
 Please note this module assumes all in-css requests to assets begin .. and replaces this with a relative path to your current themes static path.
 
